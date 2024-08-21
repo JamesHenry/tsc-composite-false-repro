@@ -1,0 +1,5 @@
+node_modules
+*tsbuildinfo
+dist
+.nx/workspace-data
+.nx/cache

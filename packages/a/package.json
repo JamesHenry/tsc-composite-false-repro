@@ -1,0 +1,11 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc --build --pretty --verbose tsconfig.build.json",
+    "typecheck": "tsc --build --emitDeclarationOnly --pretty --verbose tsconfig.json"
+  },
+  "dependencies": {
+    "b": "file:../b"
+  }
+}

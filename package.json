@@ -1,0 +1,12 @@
+{
+  "name": "tsc-composite-false-repro",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "5.5.4"
+  }
+}

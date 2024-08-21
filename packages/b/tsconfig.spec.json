@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/packages/b",
+    // For whatever reason this project does not want to emit declaration files
+    // but we still want to typecheck it
+    "emitDeclarationOnly": null,
+    "composite": false,
+    "declaration": false,
+    "declarationMap": false
+  },
+  "include": ["**/*.spec.ts", "**/*.ts"]
+}

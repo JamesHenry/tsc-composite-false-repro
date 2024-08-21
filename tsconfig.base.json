@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    // This also causes declaration and incremental to default to true
+    "composite": true,
+    "declarationMap": true,
+    // We do not emit .js files during typechecking, and instead disable this in
+    // tsconfig.build.json files for tsc powered build targets.
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    // Matches Node v20 at runtime
+    "lib": ["ES2023"],
+    // This also causes esModuleInterop and allowSyntheticDefaultImports to default to true
+    "module": "NodeNext",
+    "noEmitOnError": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    // Matches Node v20 at runtime
+    "target": "es2023"
+  }
+}
