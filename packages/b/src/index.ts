@@ -1,1 +1,1 @@
-const typeError: number = "foo";
+// const typeError: number = "foo";
